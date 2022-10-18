@@ -1,25 +1,25 @@
 <?php
-// HTTP
-define('HTTP_SERVER', 'http://localhost/opencart/infiniteScroll/admin/');
-define('HTTP_CATALOG', 'http://localhost/opencart/infiniteScroll/');
+// APPLICATION
+define('APPLICATION', 'Admin');
 
-// HTTPS
-define('HTTPS_SERVER', 'http://localhost/opencart/infiniteScroll/admin/');
-define('HTTPS_CATALOG', 'http://localhost/opencart/infiniteScroll/');
+// HTTP
+define('HTTP_SERVER', 'http://localhost/opencart4/infinitescroll/admin/');
+define('HTTP_CATALOG', 'http://localhost/opencart4/infinitescroll/');
 
 // DIR
-define('DIR_APPLICATION', 'D:/xampp/htdocs/opencart/infiniteScroll/admin/');
-define('DIR_SYSTEM', 'D:/xampp/htdocs/opencart/infiniteScroll/system/');
-define('DIR_IMAGE', 'D:/xampp/htdocs/opencart/infiniteScroll/image/');
+define('DIR_OPENCART', 'D:/xampp/htdocs/opencart4/infinitescroll/');
+define('DIR_APPLICATION', DIR_OPENCART . 'admin/');
+define('DIR_EXTENSION', DIR_OPENCART . 'extension/');
+define('DIR_IMAGE', DIR_OPENCART . 'image/');
+define('DIR_SYSTEM', DIR_OPENCART . 'system/');
+define('DIR_CATALOG', DIR_OPENCART . 'catalog/');
 define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
-define('DIR_CATALOG', 'D:/xampp/htdocs/opencart/infiniteScroll/catalog/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/template/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');
 define('DIR_CACHE', DIR_STORAGE . 'cache/');
 define('DIR_DOWNLOAD', DIR_STORAGE . 'download/');
 define('DIR_LOGS', DIR_STORAGE . 'logs/');
-define('DIR_MODIFICATION', DIR_STORAGE . 'modification/');
 define('DIR_SESSION', DIR_STORAGE . 'session/');
 define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 
@@ -28,7 +28,7 @@ define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
-define('DB_DATABASE', 'infinitescroll');
+define('DB_DATABASE', 'infinitescroll4');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
 

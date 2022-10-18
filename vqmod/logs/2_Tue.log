@@ -1,0 +1,13 @@
+---------- Date: 2022-07-26 11:24:09 ~ IP : ::1 ----------
+REQUEST URI : /opencart4/infinitescroll/index.php?route=product/category&language=en-gb&path=20
+MOD DETAILS:
+   modFile   : D:\xampp\htdocs\opencart4\infinitescroll\vqmod/xml/vqmod_infinitescroll.xml
+   id        : Infinite Scroll
+   version   : 1.0.0
+   vqmver    : 2.5.0
+   author    : Saqib Ashraf  || support@iextendlabs.com
+VQModObject::parseMods - Could not resolve path for [catalog/controller/product/catalog.php] (SKIPPED)
+
+----------------------------------------------------------------------
+
+
